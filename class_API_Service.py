@@ -5,8 +5,7 @@ from class_ABS_API import AbstractApiService
 class ApiService(AbstractApiService):
     """
      Класс для работы с API HeadHunter
-     Класс Parser является родительским классом, который вам необходимо реализовать
-     """
+    """
 
     def __init__(self, file_worker):
         self.url = 'https://api.hh.ru/vacancies'
