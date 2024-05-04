@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 
 
-class ApiService(ABC):
+class AbstractApiService(ABC):
     @abstractmethod
-    def get_url(self):
+    def __init__(self, file_worker):
         pass
 
     @abstractmethod
-    def get_vacancies(self):
+    def load_vacancies(self, keyword):
         pass
