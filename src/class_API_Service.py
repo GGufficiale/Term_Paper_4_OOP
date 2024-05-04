@@ -1,5 +1,5 @@
 import requests
-from class_ABS_API import AbstractApiService
+from src.class_ABS_API import AbstractApiService
 
 
 class ApiService(AbstractApiService):
@@ -15,6 +15,9 @@ class ApiService(AbstractApiService):
         super().__init__(file_worker)
 
     def load_vacancies(self, keyword):
+        """
+        Метод загрузки вакансий
+        """
         self.params['text'] = keyword
         while self.params.get('page') != 20:
             response = requests.get(self.url, headers=self.headers, params=self.params)

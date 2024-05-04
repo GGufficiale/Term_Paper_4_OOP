@@ -6,6 +6,9 @@ class Vacancy:
         self.skills = skills
 
     def better_salary(self, other):
+        """
+        Метод сравнения вакансий между собой по зарплате
+        """
         if self.salary > other.salary:
             print('Первая зп круче')
         elif self.salary < other.salary:
@@ -14,5 +17,8 @@ class Vacancy:
             print('Обе зп хороши')
 
     def salary_exists(self):
+        """
+        Метод валидации данных: проверка, указана зарплата или нет
+        """
         if self.salary != int:
             self.salary = 0
