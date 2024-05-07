@@ -46,5 +46,13 @@ class HeadHunter(AbstractApiService):
             })
         return filter_vacancies
 
+
 # hh = HeadHunter()
+# """Проверка вывода отфильтрованных вакансий"""
 # print(hh.get_filter_vacancies("python"))
+
+# hh = HeadHunter()
+# """Проверка вывода зп, чтоб понять ее формат"""
+# data = hh.get_filter_vacancies("python")
+# for i in data:
+#     print(i["salary"])
