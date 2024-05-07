@@ -11,12 +11,6 @@
         "employer": "Magis Corp"
     },
     {
-        "name": "Разработчик Python Junior (Backend)",
-        "salary": null,
-        "url": "https://hh.ru/vacancy/98383317",
-        "employer": "Казтелепорт, АО"
-    },
-    {
         "name": "Стажер-программист",
         "salary": {
             "from": 2500,
@@ -26,6 +20,12 @@
         },
         "url": "https://hh.ru/vacancy/98346328",
         "employer": "Технологии пользовательских интерфейсов"
+    },
+    {
+        "name": "Разработчик Python Junior (Backend)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98383317",
+        "employer": "Казтелепорт, АО"
     },
     {
         "name": "Стажер ИТ проект",
@@ -62,6 +62,12 @@
         "employer": "Volker Group"
     },
     {
+        "name": "Junior-разработчик на языке Python",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98479658",
+        "employer": "FG LLC"
+    },
+    {
         "name": "Frontend Javascript разработчик",
         "salary": {
             "from": 120000,
@@ -71,12 +77,6 @@
         },
         "url": "https://hh.ru/vacancy/98565084",
         "employer": "НОРСИ-ТРАНС"
-    },
-    {
-        "name": "Junior-разработчик на языке Python",
-        "salary": null,
-        "url": "https://hh.ru/vacancy/98479658",
-        "employer": "FG LLC"
     },
     {
         "name": "Junior программист Python",
@@ -108,10 +108,10 @@
         "employer": "Just AI"
     },
     {
-        "name": "React разработчик",
+        "name": "Data Analyst уровня Junior/Junior+",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98565506",
-        "employer": "Sapiens solutions"
+        "url": "https://hh.ru/vacancy/98568204",
+        "employer": "Центр Мобильной Идентификации"
     },
     {
         "name": "Frontend-разработчик (React)",
@@ -120,10 +120,10 @@
         "employer": "НТЦ Вулкан"
     },
     {
-        "name": "Data Analyst уровня Junior/Junior+",
+        "name": "React разработчик",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98568204",
-        "employer": "Центр Мобильной Идентификации"
+        "url": "https://hh.ru/vacancy/98565506",
+        "employer": "Sapiens solutions"
     },
     {
         "name": "Python Developer (parsing)",
