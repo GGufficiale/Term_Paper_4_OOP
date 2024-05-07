@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Junior Software Engineer (Начинающий специалист)",
+        "salary": {
+            "from": 500,
+            "to": 800,
+            "currency": "USD",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98427645",
+        "employer": "Magis Corp"
+    },
+    {
+        "name": "Разработчик Python Junior (Backend)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98383317",
+        "employer": "Казтелепорт, АО"
+    },
+    {
+        "name": "Стажер-программист",
+        "salary": {
+            "from": 2500,
+            "to": null,
+            "currency": "BYR",
+            "gross": true
+        },
+        "url": "https://hh.ru/vacancy/98346328",
+        "employer": "Технологии пользовательских интерфейсов"
+    },
+    {
+        "name": "Стажер ИТ проект",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98501325",
+        "employer": "Автопромлизинг"
+    },
+    {
+        "name": "QA Engineer (middle)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98554833",
+        "employer": "XPGraph"
+    },
+    {
+        "name": "Программист-разработчик",
+        "salary": {
+            "from": 200000,
+            "to": 500000,
+            "currency": "KZT",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98209966",
+        "employer": "Джакупова"
+    },
+    {
+        "name": "Frontend developer",
+        "salary": {
+            "from": 100000,
+            "to": 200000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98548757",
+        "employer": "Volker Group"
+    },
+    {
+        "name": "Frontend Javascript разработчик",
+        "salary": {
+            "from": 120000,
+            "to": 180000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98565084",
+        "employer": "НОРСИ-ТРАНС"
+    },
+    {
+        "name": "Junior-разработчик на языке Python",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98479658",
+        "employer": "FG LLC"
+    },
+    {
+        "name": "Junior программист Python",
+        "salary": {
+            "from": 60000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98449444",
+        "employer": "ПерилаГлавСнаб"
+    },
+    {
+        "name": "Стажер Программист-разработчик Python",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98384700",
+        "employer": "VITA STIMUL GRAND"
+    },
+    {
+        "name": "Директор департамента г.Москва (РТ \"Цифровые решения\")",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98548828",
+        "employer": "РТЛабс"
+    },
+    {
+        "name": "Младший тестировщик чат-ботов",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98369887",
+        "employer": "Just AI"
+    },
+    {
+        "name": "React разработчик",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98565506",
+        "employer": "Sapiens solutions"
+    },
+    {
+        "name": "Frontend-разработчик (React)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98452316",
+        "employer": "НТЦ Вулкан"
+    },
+    {
+        "name": "Data Analyst уровня Junior/Junior+",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98568204",
+        "employer": "Центр Мобильной Идентификации"
+    },
+    {
+        "name": "Python Developer (parsing)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/96825940",
+        "employer": "БиАйЭй-Технолоджиз"
+    },
+    {
+        "name": "Младший программист(Junior)",
+        "salary": {
+            "from": 150000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "url": "https://hh.ru/vacancy/98546769",
+        "employer": "ФГБУ ФНКЦ специализированных видов медицинской помощи и медицинских технологий ФМБА России"
+    },
+    {
+        "name": "Стажер-разработчик Python",
+        "salary": {
+            "from": null,
+            "to": 10000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98465024",
+        "employer": "Дивергент"
+    },
+    {
+        "name": "Frontend Developer",
+        "salary": {
+            "from": 2000,
+            "to": 4000,
+            "currency": "USD",
+            "gross": true
+        },
+        "url": "https://hh.ru/vacancy/98321422",
+        "employer": "Podscribe"
+    }
+]
