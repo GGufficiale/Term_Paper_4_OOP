@@ -26,6 +26,8 @@ class HeadHunter(AbstractApiService):
     def get_response(self, text: str, per_page: int = 20):
         """Запрос на НН API"""
         params = {"text": text, "per_page": per_page}
+        # Если нужно, чтобы вакансия искалась сразу в описании, то:
+        # params = {"text": f"NAME: {text}", "per_page": per_page}
         response = requests.get(self.__url, params=params)
         return response
 
