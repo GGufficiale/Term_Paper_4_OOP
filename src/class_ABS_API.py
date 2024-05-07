@@ -3,6 +3,7 @@ import requests
 
 
 class AbstractApiService(ABC):
+    """Абстрактный класс для работы с НН API"""
     @abstractmethod
     def get_response(self, text, per_page):
         pass

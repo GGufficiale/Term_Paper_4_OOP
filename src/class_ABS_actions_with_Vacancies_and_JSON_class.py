@@ -23,10 +23,12 @@ class ActionsWithVacancies(ABC):
 
 
 class JsonSaver(ActionsWithVacancies):
+    """Класс для работы с JSON файлом и сохранением инфо в него"""
     def __init__(self, filename="vacancies.json"):
         self.filename = f"data/{filename}"
 
     def write_data(self, vacancies):
+        """Метод для открытия JSON файла"""
         with open(self.filename, "w", encoding="utf-8") as f:
             json.dump(vacancies, f, ensure_ascii=False, indent=4)
 
