@@ -11,6 +11,12 @@
         "employer": "Magis Corp"
     },
     {
+        "name": "Разработчик Python Junior (Backend)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98383317",
+        "employer": "Казтелепорт, АО"
+    },
+    {
         "name": "Стажер-программист",
         "salary": {
             "from": 2500,
@@ -22,22 +28,10 @@
         "employer": "Технологии пользовательских интерфейсов"
     },
     {
-        "name": "Разработчик Python Junior (Backend)",
+        "name": "Data Analyst уровня Junior/Junior+",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98383317",
-        "employer": "Казтелепорт, АО"
-    },
-    {
-        "name": "Стажер ИТ проект",
-        "salary": null,
-        "url": "https://hh.ru/vacancy/98501325",
-        "employer": "Автопромлизинг"
-    },
-    {
-        "name": "QA Engineer (middle)",
-        "salary": null,
-        "url": "https://hh.ru/vacancy/98554833",
-        "employer": "XPGraph"
+        "url": "https://hh.ru/vacancy/98568204",
+        "employer": "Центр Мобильной Идентификации"
     },
     {
         "name": "Программист-разработчик",
@@ -51,21 +45,34 @@
         "employer": "Джакупова"
     },
     {
-        "name": "Frontend developer",
-        "salary": {
-            "from": 100000,
-            "to": 200000,
-            "currency": "RUR",
-            "gross": false
-        },
-        "url": "https://hh.ru/vacancy/98548757",
-        "employer": "Volker Group"
+        "name": "Аналитик данных",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98591518",
+        "employer": "Капиталбанк"
     },
     {
-        "name": "Junior-разработчик на языке Python",
+        "name": "Frontend-разработчик (Инвестиционный бизнес)",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98479658",
-        "employer": "FG LLC"
+        "url": "https://hh.ru/vacancy/98578652",
+        "employer": "РСХБ-Интех"
+    },
+    {
+        "name": "Стажер Программист-разработчик Python",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98384700",
+        "employer": "VITA STIMUL GRAND"
+    },
+    {
+        "name": "Стажер ИТ проект",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98501325",
+        "employer": "Автопромлизинг"
+    },
+    {
+        "name": "QA Engineer (middle)",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98554833",
+        "employer": "XPGraph"
     },
     {
         "name": "Frontend Javascript разработчик",
@@ -90,16 +97,10 @@
         "employer": "ПерилаГлавСнаб"
     },
     {
-        "name": "Стажер Программист-разработчик Python",
+        "name": "Petroleum Engineer (Baku)",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98384700",
-        "employer": "VITA STIMUL GRAND"
-    },
-    {
-        "name": "Директор департамента г.Москва (РТ \"Цифровые решения\")",
-        "salary": null,
-        "url": "https://hh.ru/vacancy/98548828",
-        "employer": "РТЛабс"
+        "url": "https://hh.ru/vacancy/98612984",
+        "employer": "Cornerstone Russia"
     },
     {
         "name": "Младший тестировщик чат-ботов",
@@ -108,60 +109,49 @@
         "employer": "Just AI"
     },
     {
-        "name": "Data Analyst уровня Junior/Junior+",
+        "name": "Junior-разработчик на языке Python",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98568204",
-        "employer": "Центр Мобильной Идентификации"
+        "url": "https://hh.ru/vacancy/98479658",
+        "employer": "FG LLC"
     },
     {
-        "name": "Frontend-разработчик (React)",
+        "name": "Backend разработчик (Python)",
+        "salary": {
+            "from": 80000,
+            "to": 150000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98625910",
+        "employer": "Айтат"
+    },
+    {
+        "name": "Junior Python Developer/ Data Analyst (Агентство Starlink)",
         "salary": null,
-        "url": "https://hh.ru/vacancy/98452316",
-        "employer": "НТЦ Вулкан"
+        "url": "https://hh.ru/vacancy/98623059",
+        "employer": "RoRe Group"
+    },
+    {
+        "name": "Руководитель финансового отдела",
+        "salary": null,
+        "url": "https://hh.ru/vacancy/98592783",
+        "employer": "ИнтерЛабСервис"
+    },
+    {
+        "name": "Frontend developer",
+        "salary": {
+            "from": 100000,
+            "to": 200000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "url": "https://hh.ru/vacancy/98548757",
+        "employer": "Volker Group"
     },
     {
         "name": "React разработчик",
         "salary": null,
         "url": "https://hh.ru/vacancy/98565506",
         "employer": "Sapiens solutions"
-    },
-    {
-        "name": "Python Developer (parsing)",
-        "salary": null,
-        "url": "https://hh.ru/vacancy/96825940",
-        "employer": "БиАйЭй-Технолоджиз"
-    },
-    {
-        "name": "Младший программист(Junior)",
-        "salary": {
-            "from": 150000,
-            "to": null,
-            "currency": "RUR",
-            "gross": true
-        },
-        "url": "https://hh.ru/vacancy/98546769",
-        "employer": "ФГБУ ФНКЦ специализированных видов медицинской помощи и медицинских технологий ФМБА России"
-    },
-    {
-        "name": "Стажер-разработчик Python",
-        "salary": {
-            "from": null,
-            "to": 10000,
-            "currency": "RUR",
-            "gross": false
-        },
-        "url": "https://hh.ru/vacancy/98465024",
-        "employer": "Дивергент"
-    },
-    {
-        "name": "Frontend Developer",
-        "salary": {
-            "from": 2000,
-            "to": 4000,
-            "currency": "USD",
-            "gross": true
-        },
-        "url": "https://hh.ru/vacancy/98321422",
-        "employer": "Podscribe"
     }
 ]

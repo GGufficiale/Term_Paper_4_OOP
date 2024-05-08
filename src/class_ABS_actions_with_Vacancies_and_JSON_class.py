@@ -37,12 +37,12 @@ class JsonSaver(ActionsWithVacancies):
         """Метод получения вакансий из json файла"""
         with open(self.filename, encoding="utf-8") as f:
             data = json.load(f)
-        vacancies = []
+        vacancies_list = []
         for vacancy in data:
             """Распаковка значений словаря для создания экземпляров класса"""
-            vacancies.append(Vacancy(**vacancy))
+            vacancies_list.append(Vacancy(**vacancy))
             # Можно было бы записать vacancies.append(Vacancy(name=vacancy["name"]) итд.)
-        return vacancies
+        return vacancies_list
 
     def delete_vacancy(self, name) -> list[Vacancy]:
         """Метод удаления вакансий из json файла"""
