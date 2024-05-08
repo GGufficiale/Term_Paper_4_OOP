@@ -5,8 +5,8 @@ import json
 
 class ActionsWithVacancies(ABC):
     """
-    Абстрактный Класс, который обязывает реализовать методы для добавления вакансий в файл, получения данных из файла
-    по критериям и удаления информации о вакансиях
+    Абстрактный Класс, который обязывает реализовывать методы для добавления вакансий в файл,
+    получения данных из файла по критериям и удаления информации о вакансиях
     """
 
     @abstractmethod
@@ -25,10 +25,11 @@ class ActionsWithVacancies(ABC):
 class JsonSaver(ActionsWithVacancies):
     """Класс для работы с JSON файлом и сохранением инфо в него"""
     def __init__(self, filename="vacancies.json"):
+        """Метод для автоматического создания и наименования JSON файла"""
         self.filename = f"data/{filename}"
 
     def write_data(self, vacancies):
-        """Метод для открытия JSON файла"""
+        """Метод для записи инфо в JSON файл"""
         with open(self.filename, "w", encoding="utf-8") as f:
             json.dump(vacancies, f, ensure_ascii=False, indent=4)
 

@@ -21,6 +21,7 @@ class HeadHunter(AbstractApiService):
     """Класс для работы с НН API"""
 
     def __init__(self):
+        """Определение API-ссылки, с которой будет вестись работа"""
         self.__url = "https://api.hh.ru/vacancies"
 
     def get_response(self, text: str, per_page: int = 20):
@@ -37,7 +38,7 @@ class HeadHunter(AbstractApiService):
         return vacancies
 
     def get_filter_vacancies(self, text: str, per_page: int = 20) -> list:
-        """Метод фильтрации значений (вакансий) из массы с НН"""
+        """Метод фильтрации значений (вакансий) из массы с НН по выбранным нами параметрам"""
         filter_vacancies = []
         vacancies = self.get_vacancies(text, per_page)
         for vacancy in vacancies:

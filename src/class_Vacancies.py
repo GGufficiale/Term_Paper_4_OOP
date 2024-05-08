@@ -7,8 +7,8 @@ class Vacancy:
         self.employer = employer
 
     def __validate_salary(self, salary):
-        """Приватный метод валидации, потому что он будет нужен только здесь
-        Проверка на наличие зарплаты (None или не None)"""
+        """Метод валидации - проверка на наличие зарплаты (None или не None).
+        Он приватный, потому что будет нужен только здесь"""
         if salary is None:
             self.salary_from = 0
             self.salary_to = 0
@@ -17,6 +17,7 @@ class Vacancy:
             self.salary_to = salary["to"] if salary["to"] else "∞"
 
     def __str__(self):
+        """Метод для вывода инфо о вакансии в нужном нам формате"""
         return f"""Имя: {self.name}
 Зарплата от {self.salary_from} до {self.salary_to}
 url: {self.url}
@@ -24,5 +25,5 @@ url: {self.url}
 
     def __lt__(self, other):
         """<"""
-        # """Метод, чтобы сортировка работала в обе стороны - от и до"""
+        # """Метод для работы сортировки в обе стороны - "от" и "до""""
         return (self.salary_from, self.salary_to) < (other.salary_from, other.salary_to)
