@@ -76,7 +76,7 @@ def user_interaction():
             for vacancy in all_vacancy[:top_n_vacancy]:
                 try:
                     name = get_value(vacancy, 'name')
-                    url = get_value(vacancy, 'url')
+                    url = get_value(vacancy, 'alternate_url')
                     salary = get_value(vacancy, 'salary')
                     employer = get_value(vacancy, 'employer')
                     good_vacancy.append(Vacancy(name, url, salary, employer))
@@ -86,8 +86,8 @@ def user_interaction():
             for vacancy in all_vacancy:
                 try:
                     name = get_value(vacancy, 'name')
-                    url = get_value(vacancy, 'url')
-                    salary = get_value(vacancy, 'salary', 'from')
+                    url = get_value(vacancy, 'alternate_url')
+                    salary = get_value(vacancy, 'salary')
                     employer = get_value(vacancy, 'employer')
                     if any(keyword.lower() in str(vacancy).lower() for keyword in keyword_vacancy):
                         good_vacancy.append(Vacancy(name, url, salary, employer))
@@ -105,6 +105,7 @@ def user_interaction():
 
         for vacancy in good_vacancy:
             print(vacancy)
+            print("*" * 20)
 
     with open('vacancies.json', 'w') as file:
         json.dump(good_vacancy, file, default=lambda x: x.__dict__)
